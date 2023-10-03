@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-03T16:11:34.370Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="2hTviiFdR0q8ocLAZ5ls" version="22.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-03T16:27:28.994Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="qdxDtNBVg_-CS__R_gd0" version="22.0.2" type="github">
   <diagram name="Page-1" id="GqbBi8rHdw0aZN-h9Eqn">
     <mxGraphModel dx="1422" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -37,9 +37,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="C99Lwu9LBluDehWBAxG9-13" value="Event&lt;br&gt;Listeners" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;spacingTop=0;spacingBottom=18;noLabel=0;" vertex="1" connectable="0" parent="C99Lwu9LBluDehWBAxG9-12">
+        <mxCell id="C99Lwu9LBluDehWBAxG9-13" value="Event&lt;br&gt;Stream" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;spacingTop=0;spacingBottom=18;noLabel=0;" vertex="1" connectable="0" parent="C99Lwu9LBluDehWBAxG9-12">
           <mxGeometry x="-0.1245" y="-3" relative="1" as="geometry">
-            <mxPoint x="158" y="-17" as="offset" />
+            <mxPoint x="158" y="-127" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C99Lwu9LBluDehWBAxG9-30" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;align=center;" edge="1" parent="1" source="C99Lwu9LBluDehWBAxG9-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="60" />
+              <mxPoint x="60" y="60" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="C99Lwu9LBluDehWBAxG9-3" value="&lt;div&gt;Distributed&lt;/div&gt;&lt;div&gt;Event Store&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
@@ -68,6 +77,15 @@
             <mxPoint x="39" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="C99Lwu9LBluDehWBAxG9-29" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="C99Lwu9LBluDehWBAxG9-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="431" y="500" />
+              <mxPoint x="55" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="C99Lwu9LBluDehWBAxG9-5" value="output" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="371" y="380" width="120" height="60" as="geometry" />
         </mxCell>
@@ -90,7 +108,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="C99Lwu9LBluDehWBAxG9-19" value="Events" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;spacingBottom=24;" vertex="1" connectable="0" parent="C99Lwu9LBluDehWBAxG9-18">
+        <mxCell id="C99Lwu9LBluDehWBAxG9-19" value="Domain&lt;br&gt;Events" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;spacingBottom=24;" vertex="1" connectable="0" parent="C99Lwu9LBluDehWBAxG9-18">
           <mxGeometry x="-0.0935" relative="1" as="geometry">
             <mxPoint x="-2" y="-10" as="offset" />
           </mxGeometry>
@@ -98,13 +116,17 @@
         <mxCell id="C99Lwu9LBluDehWBAxG9-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="C99Lwu9LBluDehWBAxG9-16" target="C99Lwu9LBluDehWBAxG9-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C99Lwu9LBluDehWBAxG9-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="C99Lwu9LBluDehWBAxG9-27" target="C99Lwu9LBluDehWBAxG9-4">
+        <mxCell id="C99Lwu9LBluDehWBAxG9-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="C99Lwu9LBluDehWBAxG9-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="140" y="280" as="targetPoint" />
+            <mxPoint x="80" y="280" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C99Lwu9LBluDehWBAxG9-27" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="C99Lwu9LBluDehWBAxG9-27" value="Actor" style="shape=umlActor;verticalLabelPosition=top;verticalAlign=bottom;html=1;outlineConnect=0;labelPosition=center;align=center;spacingBottom=8;" vertex="1" parent="1">
           <mxGeometry x="40" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C99Lwu9LBluDehWBAxG9-31" value="Event&lt;br&gt;Listeners" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;spacingTop=0;spacingBottom=18;noLabel=0;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="620" y="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
